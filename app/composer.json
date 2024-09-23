@@ -1,0 +1,19 @@
+{
+    "name": "orbixtartechnologies/sip",
+    "description": "OrbixtarSIP is a robust and scalable Private Branch Exchange (PBX) solution designed to facilitate seamless and efficient voice communication. Leveraging the power of Session Initiation Protocol (SIP), it offers advanced telephony features, superior call quality, and high-level interoperability. OrbixtarSIP aims to revolutionize the way businesses communicate by providing a cost-effective and reliable PBX system.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Orbixtartechnologies\\Sip\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Orbixtar Technologies",
+            "email": "support@orbixtartechnologies.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
